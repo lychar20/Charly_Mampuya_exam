@@ -1,4 +1,4 @@
-package fr.ktourret.poec.my_mvc.service;
+package fr.charly.exam.service;
 
 import org.json.JSONObject;
 

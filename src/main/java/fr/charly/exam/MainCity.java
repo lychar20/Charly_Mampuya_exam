@@ -1,7 +1,7 @@
 package fr.charly.exam;
 
 
-public class MainDepartment {
+public class MainCity {
     public static void main(String[] args) {
 
 

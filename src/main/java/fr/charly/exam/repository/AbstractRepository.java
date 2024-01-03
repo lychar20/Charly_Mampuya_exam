@@ -1,12 +1,14 @@
-package fr.ktourret.poec.my_mvc.repository;
+package fr.charly.exam.repository;
 
-import fr.ktourret.poec.my_mvc.entity.EntityInterface;
-import fr.ktourret.poec.my_mvc.service.DBConnect;
+import fr.charly.exam.entity.EntityInterface;
+import fr.charly.exam.service.DBConnect;
+import fr.charly.exam.entity.EntityInterface;
+import fr.charly.exam.service.DBConnect;
 
 import java.sql.*;
 import java.text.SimpleDateFormat;
-import java.util.*;
 import java.util.Date;
+import java.util.*;
 
 public abstract class AbstractRepository<T extends EntityInterface> {
 

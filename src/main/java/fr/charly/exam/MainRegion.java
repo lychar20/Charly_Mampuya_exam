@@ -1,19 +1,19 @@
 package fr.charly.exam;
 
 
-import fr.charly.exam.service.DigimonApiService;
+
+import fr.charly.exam.entity.Region.Region;
+import fr.charly.exam.repository.region.RegionRepository;
 import fr.charly.exam.service.Dump;
 
-public class MainDigimon {
+public class MainRegion {
     public static void main(String[] args) {
 
-        DigimonApiService dg = new DigimonApiService();
-        for (int i = 0; i < 1300; i++) {
-            dg.getDigimonCharacter(i);
-            Dump.dump(i);
-        }
+        RegionRepository rg = new RegionRepository();
+        System.out.println(rg);
 
-       // DigimonCharacter digimonCharacter = dg.getDigimonCharacter();
+//        Region region = rg.findDepartmentsByRegion("region","Centre-Val de Loire" );
+//        System.out.println(region);
 
     }
 }

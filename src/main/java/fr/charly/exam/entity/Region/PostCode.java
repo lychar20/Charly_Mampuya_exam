@@ -5,14 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Department {
+public class PostCode {
     private Long id;
-    private String name;
     private String code;
-    private Region region;
+    private List<City> cities = new ArrayList<>();
 
 }

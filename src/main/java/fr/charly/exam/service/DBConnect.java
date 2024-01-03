@@ -1,4 +1,4 @@
-package fr.ktourret.poec.my_mvc.service;
+package fr.charly.exam.service;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DBConnect {
 
-    private static final String url = "jdbc:mariadb://localhost:3307/db_instant-faking-java";
+    private static final String url = "jdbc:mariadb://localhost:3307/gouvernement";
 
     private static final String user = "root";
 

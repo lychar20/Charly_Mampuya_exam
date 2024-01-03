@@ -1,27 +1,28 @@
 package fr.charly.exam.repository.region;
 
+import fr.charly.exam.entity.Region.City;
 import fr.charly.exam.entity.Region.Region;
 import fr.charly.exam.repository.AbstractRepository;
 
 import java.sql.ResultSet;
 
-public class RegionRepository extends AbstractRepository<Region> {
-    protected RegionRepository(String tableName) {
-        super("region");
+public class CityRepository extends AbstractRepository<City> {
+    protected CityRepository() {
+        super("city");
     }
 
     @Override
-    protected Region update(Region object) {
+    protected City update(City object) {
         return null;
     }
 
     @Override
-    protected Region insert(Region object) {
+    protected City insert(City object) {
         return null;
     }
 
     @Override
-    protected Region getObject(ResultSet rs) {
+    protected City getObject(ResultSet rs) {
         return null;
     }
 }

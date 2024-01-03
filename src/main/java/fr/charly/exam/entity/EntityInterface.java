@@ -1,4 +1,4 @@
-package fr.ktourret.poec.my_mvc.entity;
+package fr.charly.exam.entity;
 
 public interface EntityInterface {
 

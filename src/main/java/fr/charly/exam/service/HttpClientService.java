@@ -1,4 +1,4 @@
-package fr.ktourret.poec.my_mvc.service;
+package fr.charly.exam.service;
 
 import java.io.IOException;
 import java.net.URI;

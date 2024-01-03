@@ -1,4 +1,4 @@
-package fr.ktourret.poec.my_mvc.dao;
+package fr.charly.exam.dao;
 
 import java.util.List;
 import java.util.Map;
